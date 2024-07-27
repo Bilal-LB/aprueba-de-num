@@ -1,5 +1,51 @@
+/*Background image*/
+
 .ocean-background {
     height: 100vh;
     background: url("/img/ocean.jpg") no-repeat center center;
     background-size: cover;
+}
+
+/*Navigation bar*/
+
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 15fr;
+    align-items:center;
+    padding: 10px 20px;
+}
+
+.logo img{
+    height: 40px;
+    width: 40px;
+    margin-top: 30px;
+    place-items: center;
+}
+
+.logo{
+    justify-self: end; 
+}
+
+.nav-links{
+    list-style: none;
+    display:grid;
+    grid-template-columns: repeat(7, auto);
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 0;
+}
+
+.nav-links li:last-child{
+    margin-left: -20px;
+}
+
+
+.nav-links a{
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-links a:hover{
+    color: var(--aprueba-turquoise)
 }

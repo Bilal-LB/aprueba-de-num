@@ -3,7 +3,19 @@
     --aprueba-beige: #f4f1de;
     --aprueba-orange: #df7a5e;
     --aprueba-navy-blue: #3c405b;
-    --aprueba-turquise: #81b39a;
+    --aprueba-turquoise: #81b39a;
     --aprueba-ochre: #f2cc8e;
-
 }
+
+@font-face {
+    font-family: "Aptos"; 
+    src: url("/fonts/aptos-light.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    font-family: 'Aptos', sans-serif;
+}
+
