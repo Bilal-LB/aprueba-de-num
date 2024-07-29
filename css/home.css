@@ -111,12 +111,17 @@
         gap: 10px;  
     }
 
+    .nav-links a:hover{
+        color: var(--aprueba-ochre)
+    
+    }
+
     .home-btn{
         background-color: var(--aprueba-ochre);   
     }
     
     .home-btn:hover{
-        background-color: var(--aprueba-navy-blue);
+        background-color: var(--aprueba-turquoise);
     }
 }
 
