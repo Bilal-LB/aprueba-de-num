@@ -14,8 +14,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "cerdaville";
+    src: url("/fonts/cerdaville.ttf");
+}
 
 body{
     font-family: 'Aptos', sans-serif;
 }
 
+
+.test-title{
+    font-family: 'cerdaville';
+    font-size: 50px;
+}
